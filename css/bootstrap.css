@@ -63,6 +63,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  font-family: inherit;
 }
 mark {
   color: #000;
@@ -1080,6 +1081,12 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.icon-custom{
+  background-image: url("...Analyrics/img/angry.png");
+  background-position: center center;
+}
+
 html {
   font-size: 10px;
 
@@ -1222,6 +1229,7 @@ h6 .small,
   font-weight: normal;
   line-height: 1;
   color: #777;
+  font-family: inherit;
 }
 h1,
 .h1,
@@ -1272,6 +1280,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  font-family: inherit;
 }
 h2,
 .h2 {

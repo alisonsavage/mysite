@@ -16,6 +16,77 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.item{
+    /*background: #bebebe;
+    color: #bebebe;*/
+    width:190px;
+    height:190px;
+    border-radius: 3px;
+    position:relative;
+    margin:0 auto;
+    /*margin-bottom:-10px !important;*/
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+}
+/*
+@media(max-width:991px) {
+    .item {
+        width: 33%;
+    }
+}*/
+
+.galcolumn {
+  width:25% !important;
+}
+
+@media(min-width:640px) and (max-width:991px) {
+    .galcolumn {
+        width: 33% !important;
+    }
+}
+
+@media(min-width:510px) and (max-width:639px){
+    .galcolumn {
+        width: 35% !important;
+        margin-left:40px;
+    }
+}
+
+@media(max-width:509px){
+    .galcolumn {
+        width: 100% !important;
+        margin:0 auto;
+    }
+}
+
+span.text-content {
+  background: #017797;
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  top: 0;
+  width: 190px;
+  height:190px;
+  opacity: 0;
+  position:absolute;
+ -webkit-transition: opacity 500ms;
+ -moz-transition: opacity 500ms;
+ -o-transition: opacity 500ms;
+ transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.item:hover span.text-content { margin-bottom:0px;opacity:0.85;}
+
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -28,7 +99,7 @@ body {
     font-size: 6em;
     font-weight: 700;
     color: white;
-    font-family: "CaliBrush";
+    font-family: 'Trebuchet MS';
 }
 
 h3{
@@ -39,7 +110,7 @@ h3{
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .btn-dark:hover,
@@ -197,7 +268,7 @@ linear-gradient(
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 250px;
     color: #fff;
     background: url(../img/rootsdark.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
