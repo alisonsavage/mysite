@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: 'PT Sans', sans-serif;;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .item{
@@ -37,7 +37,7 @@ body {
     }
 }*/
 
-/*.galcolumn {
+.galcolumn {
   width:25% !important;
 }
 
@@ -59,7 +59,7 @@ body {
         width: 100% !important;
         margin:0 auto;
     }
-}*/
+}
 
 span.text-content {
   background: #017797;
@@ -99,7 +99,7 @@ span.text-content span {
     font-size: 6em;
     font-weight: 700;
     color: white;
-    font-family: 'PT Sans', sans-serif;;
+    font-family: 'Trebuchet MS';
 }
 
 h3{
@@ -118,19 +118,6 @@ h3{
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
-}
-
-.btn-darkblue {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(1, 119, 151, 1);
-}
-
-.btn-darkblue:hover,
-.btn-darkblue:focus,
-.btn-darkblue:active {
-    color: #fff;
-    background-color: rgba(1, 119, 151, 0.85);
 }
 
 .btn-light {
